@@ -4,6 +4,7 @@ body{
 .bg-light{
     background-color: #F0FFF0!important;
 }
+/*-------------------------- navigation area ---------------------------*/
 .navigation{
     background-color: #F0FFF0!important;
 }
@@ -20,9 +21,10 @@ font-size: 16px;
 .designed-btn{
     color: white;
     background-color: #21B573;
+    background-image: linear-gradient(45deg,#21B573,#cce7cc);
     font-size: 16px;
-    padding: 10px 20px;
-    border: none;
+    padding: 10px 24px;
+    border: 2px solid white;
     border-radius: 30px;
 }
 .navigation .navbar #navbarNav .designed-btn a{
@@ -40,7 +42,7 @@ font-size: 16px;
     background-color: #F0FFF0;
 }
 .banner-area{
-    padding-top: 150px;
+    padding-top: 200px;
     padding-bottom: 60px;
 } 
 .banner-area h1{
@@ -59,7 +61,8 @@ p{
     color: #21B573;
 }
 /*-------------------------- Activity area ---------------------------*/
-.activity-area,.course-area,.tesimonial-area{
+
+.activity-area,.course-area,.about-area,.tesimonial-area,.contact-area,.subscribe,.footer-area{
     padding: 100px 0px;
 }
 .single-activity{
@@ -67,6 +70,10 @@ p{
     height: 270px;
     background-color: #F8FFFB;
     border-radius: 10px;
+}
+.activity-area,.col-md-6,.col-lg-3{
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .single-activity img{
     width: 80px;
@@ -82,10 +89,45 @@ p{
 .box-shadow{
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
 }
+/* ------------------------------About Us Area-------------------------- */
+
+.about-area .col-md-6 img{
+    width: 400px;
+    text-align: center;
+    border: 5px solid #F0FFF0;
+    padding:15px;
+    box-shadow: 0px 0px 35px 15px rgba(0, 0, 0, 0.1);
+}
+.about-area .about-info{
+    position: relative;
+    padding-left: 40px;
+}
+.about-area .about-info:after{
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 100%;
+    background-color: #44BF85;
+    top: 0;
+    left: 0;
+}
+.about-area .about-info:before{
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-color: #44BF85;
+    left: 0;
+    top: 50%;
+    border-radius: 50%;
+    transform: rotate(45deg);
+
+}
 /*-------------------------- Online Courses area ---------------------------*/
-.course-area h3,.tesimonial-area h3{
+
+.course-area h3,.about-area h3,.tesimonial-area h3,.contact-area h3{
     color:#413960;
-    padding-bottom: 35px;
+    padding-bottom: 100px;
     font-size: 36px;
     font-weight: bold;
 }
@@ -109,6 +151,7 @@ padding: 24px 19px;
    padding-right: 8px;
 }
 /*-------------------------- Testimonial area ---------------------------*/
+
 .tesimonial-area img{
     width: 120px;
     height: 120px;
@@ -119,4 +162,223 @@ padding: 24px 19px;
 .tesimonial-area p{
     color: black;
     padding-top: 20px;
+    font-size: 16px;
+}
+/*-------------------------- Contact Us area ---------------------------*/
+.contact-info{
+    background-color: white;
+    padding: 70px 40px;
+    box-shadow: 0px 0px 35px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+.contact-form{
+    background-color: #F0FFF0;
+    padding: 50px 50px;
+}
+.contact-area .contact-info h2{
+    font-weight: bold;
+    font-size: 38px;
+    color: #21B573;
+}
+.contact-area .contact-info p{
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+}
+/*-------------------------- NewsLetter area ---------------------------*/
+.subscribe{
+background-color: #F8FFFB;
+}
+.subscribe .newsletter{
+background-color:#40BE83;
+padding: 80px 20px;
+}
+.subscribe .newsletter .col-md-8 h3{
+color: white;
+}
+/*-------------------------- Footer area ---------------------------*/
+.footer-area{
+    background-color: #282531;
+    color: white;
+}
+.footer-area h6{
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.footer-area p{
+    color: white;
+    font-weight: normal;
+    font-size: 16px;
+    word-spacing: 4px;
+}
+.align-center{
+    text-align: center;
+}
+.paading-t150{
+    padding-top: 150px;
+}
+.footer-area{
+padding-bottom: 30px;
+}
+@media (min-width: 320px){
+    .banner-area h1 {
+        font-size: 30px;
+        padding-bottom: 4px;
+    }
+    .activity-area, .col-md-6, .col-lg-3 {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 15px;
+    }
+.padding-tb19 {
+    padding: 3px 0px;
+}
+.designed-btn {
+    font-size: 12px;
+}
+.single-activity {
+    margin: auto;
+    margin-bottom: 10px;
+}
+.activity-area, .course-area, .about-area, .tesimonial-area, .contact-area, .subscribe, .footer-area {
+    padding: 30px 0px;
+}
+.course-area h3, .about-area h3, .tesimonial-area h3, .contact-area h3 {
+    padding-bottom: 20px;
+    font-size: 31px;
+}
+.tesimonial-area img {
+    margin: 0 auto;
+}
+.tesimonial-area p {
+    padding-left: 5px;
+}
+.contact-info {
+    padding: 28px 40px;
+}
+.contact-area .contact-info h2 {
+    font-size: 31px;
+}
+.subscribe .newsletter .col-md-8 h3 {
+    font-size: 13px;
+}
+.subscribe .newsletter {
+    padding: 40px 20px;
+}
+.footer-area p {
+    font-size: 6px;
+    word-spacing: 0px;
+}
+.footer-area h6 {
+    font-size: 9px;
+    padding-bottom: 1px;
+}
+.paading-t150 {
+    padding-top: 9px;
+}
+.about-area .about-info:after{
+    visibility: hidden;
+}
+.about-area .about-info:before{
+    visibility: hidden;
+
+}
+}
+@media (min-width: 576px){
+    .about-area .about-info{
+        margin-top: 30px;
+    }
+    .about-area .col-md-6 img{
+        margin: auto;
+    }
+    .course-area .card-deck .card{
+        margin-bottom: 20px;
+    }
+    .tesimonial-area img{
+        margin: 0 auto;
+    }
+    .subscribe .newsletter .col-md-8 h3 {
+        font-size: 18px;}
+     .paading-t150 {
+            padding-top: 70px;
+     }
+     .footer-area h6{
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    .footer-area p{
+        font-size: 14px;
+        word-spacing: 4px;
+    }
+}
+
+@media (min-width: 768px){
+    .banner-area h1{
+        font-size: 43px;
+        padding-bottom: 5px;
+    }
+    .course-area .card-deck .card img{
+        padding: 24px 10px;
+    }
+    .activity-area,.col-md-6,.col-lg-3{
+        padding-left: 30px;
+        padding-right: 0px;
+    }
+    .single-activity{
+        margin: 10px 0px;
+    } 
+    .about-area .about-info:after{
+        visibility: visible;
+    }
+    .about-area .about-info:before{
+        visibility: visible;
+    
+    }
+    .footer-area h6{
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    .footer-area p{
+        font-size: 16px;
+        word-spacing: 4px;
+    }
+    .activity-area, .course-area, .about-area, .tesimonial-area, .contact-area, .subscribe, .footer-area {
+        padding: 50px 0px;
+    }
+}
+
+@media (min-width: 992px){
+    .single-activity{
+        width: 250px;
+        height: 270px;
+    } 
+    .activity-area,.col-md-6,.col-lg-3{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .contact-form{
+        background-color: #F0FFF0;
+        padding: 40px 80px;
+    }
+    .course-area h3,.about-area h3,.tesimonial-area h3,.contact-area h3{
+        padding-bottom: 100px;
+        font-size: 36px;
+    }
+    .subscribe .newsletter{
+        background-color:#40BE83;
+        padding: 80px 20px;
+        }
+        .designed-btn{
+            font-size: 16px;
+            padding: 10px 24px;
+        }
+        .banner-area h1{
+            font-weight: 700;
+            font-size: 48px;
+            padding-bottom: 19px;
+        }
+        .paading-t150 {
+            padding-top: 150px;
+        }
 }
