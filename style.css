@@ -1,3 +1,122 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.bg-light{
+    background-color: #F0FFF0!important;
+}
+.navigation{
+    background-color: #F0FFF0!important;
+}
+.navigation .navbar img{
+    width: 198px;
+}
+.nav-top-padding{
+    padding-top: 30px;
+}
+.navigation .navbar #navbarNav ul li a{
+color: black;
+font-size: 16px;
+}
+.designed-btn{
+    color: white;
+    background-color: #21B573;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+}
+.navigation .navbar #navbarNav .designed-btn a{
+    color: white;
+    text-decoration: none; 
+}
+.text-align-center{
+    text-align: center;
+}
+.padding-tb19{
+    padding: 19px 0px;
+}
+/*-------------------------- banner area ---------------------------*/
+.banner-area{
+    background-color: #F0FFF0;
+}
+.banner-area{
+    padding-top: 150px;
+    padding-bottom: 60px;
+} 
+.banner-area h1{
+    font-weight: 700;
+    font-size: 48px;
+    padding-bottom: 19px;
+}
+p{
+    color: #585859;
+}
+.banner-area .container p:nth-child(1){
+    color: #FD511A;
+    padding: 0px 0px;
+}
+.banner-area h1 span{
+    color: #21B573;
+}
+/*-------------------------- Activity area ---------------------------*/
+.activity-area,.course-area,.tesimonial-area{
+    padding: 100px 0px;
+}
+.single-activity{
+    width: 270px;
+    height: 270px;
+    background-color: #F8FFFB;
+    border-radius: 10px;
+}
+.single-activity img{
+    width: 80px;
+    height: 160px;
+    padding: 35px 0px;
+}
+.single-activity h4{
+    color: #413960;
+}
+.white-bg{
+    background-color: white!important;
+}
+.box-shadow{
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+/*-------------------------- Online Courses area ---------------------------*/
+.course-area h3,.tesimonial-area h3{
+    color:#413960;
+    padding-bottom: 35px;
+    font-size: 36px;
+    font-weight: bold;
+}
+.course-area .card-deck .card{
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+.course-area .card-deck .card img{
+padding: 24px 19px;
+}
+.course-area .card-deck .card .card-footer{
+    background-color: #fff;
+    border: none;
+    padding-bottom: 24px;
+}
+.course-area .card-deck .card .card-footer h6 img{
+   width: 24px;
+   padding: 0px 0px;
+   padding-right: 8px;
+}
+/*-------------------------- Testimonial area ---------------------------*/
+.tesimonial-area img{
+    width: 120px;
+    height: 120px;
+    padding: 0px 0px;
+    border-radius: 50%;
+    border: 5px solid lightgrey;
+}
+.tesimonial-area p{
+    color: black;
+    padding-top: 20px;
+}
